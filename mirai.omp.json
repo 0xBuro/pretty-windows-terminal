@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "",
+            "postfix": " 🍙 Burakbo@MIRAI 🍣 <yellow>::.</>",
+            "text": "<#ef6950>\u276F</>"
+          }
+        },
+        {
+          "type": "path",
+          "style": "diamond",
+          "foreground": "cyan",
+          "properties": {
+            "style": "folder",
+            "home_icon": "☕💻",
+            "postfix": " <blue>.::</>"
+          }
+        },
+        {
+          "type": "git",
+          "style": "diamond",
+          "foreground": "#e7456e",
+          "properties": {
+            "branch_icon": "",
+            "fetch_status": false,
+            "template": "{{ .HEAD }}",
+            "prefix": "<#5FAAE8>git:(</>",
+            "postfix": "<#5FAAE8>)</>"
+          }
+        },
+        {
+          "type": "time",
+          "style": "diamond",
+          "foreground": "cyan",
+          "properties": {
+            "time_format": "15:04"
+          }
+        },
+        {
+          "type": "envvar",
+          "style": "diamond",
+          "foreground": "cyan",
+          "properties": {
+          "var_name": "POSH",
+          "postfix": "\n"
+          }
+       }
+      ]
+    }
+  ]
+}
