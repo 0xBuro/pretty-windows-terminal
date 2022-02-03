@@ -11,7 +11,7 @@
           "foreground": "#ffffff",
           "properties": {
             "prefix": "",
-            "postfix": " 🍙 Burakbo@MIRAI 🍣 <yellow>::.</>",
+            "postfix": " 🍙 YOUR-NAME@PC-NAME 🍣 <yellow>::.</>",
             "text": "<#ef6950>\u276F</>"
           }
         },
