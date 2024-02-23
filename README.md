@@ -5,7 +5,7 @@ I used posh-git, oh-my-posh and a small custom module which tells you to sleep, 
 
 ## Preview
 
-![terminal-rice.](/terminal-ricing.png "Terminal Rice")
+![terminal-rice.](/screenshot.png "Terminal Rice")
 
 ## Prerequisites
 
